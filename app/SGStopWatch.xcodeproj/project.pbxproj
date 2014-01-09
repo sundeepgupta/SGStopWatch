@@ -51,11 +51,11 @@
 		AE0BAF33187CC6FB009F8066 /* SGStopWatchTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SGStopWatchTests-Info.plist"; sourceTree = "<group>"; };
 		AE0BAF35187CC6FB009F8066 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AE0BAF37187CC6FB009F8066 /* SGStopWatchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SGStopWatchTests.m; sourceTree = "<group>"; };
-		AE0BAF41187CC759009F8066 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		AE0BAF41187CC759009F8066 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Storyboard.storyboard; path = ../Storyboard.storyboard; sourceTree = "<group>"; };
 		AE0BAF42187CC759009F8066 /* SGStopWatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGStopWatch.h; sourceTree = "<group>"; };
 		AE0BAF43187CC759009F8066 /* SGStopWatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGStopWatch.m; sourceTree = "<group>"; };
-		AE0BAF44187CC759009F8066 /* SGStopWatchVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGStopWatchVC.h; sourceTree = "<group>"; };
-		AE0BAF45187CC759009F8066 /* SGStopWatchVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGStopWatchVC.m; sourceTree = "<group>"; };
+		AE0BAF44187CC759009F8066 /* SGStopWatchVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGStopWatchVC.h; sourceTree = SOURCE_ROOT; };
+		AE0BAF45187CC759009F8066 /* SGStopWatchVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGStopWatchVC.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,11 +85,6 @@
 		AE0BAF06187CC6FB009F8066 = {
 			isa = PBXGroup;
 			children = (
-				AE0BAF41187CC759009F8066 /* Storyboard.storyboard */,
-				AE0BAF42187CC759009F8066 /* SGStopWatch.h */,
-				AE0BAF43187CC759009F8066 /* SGStopWatch.m */,
-				AE0BAF44187CC759009F8066 /* SGStopWatchVC.h */,
-				AE0BAF45187CC759009F8066 /* SGStopWatchVC.m */,
 				AE0BAF18187CC6FB009F8066 /* SGStopWatch */,
 				AE0BAF31187CC6FB009F8066 /* SGStopWatchTests */,
 				AE0BAF11187CC6FB009F8066 /* Frameworks */,
@@ -120,6 +115,10 @@
 		AE0BAF18187CC6FB009F8066 /* SGStopWatch */ = {
 			isa = PBXGroup;
 			children = (
+				AEAC8C7A187E32D600228D32 /* SGStopWatch */,
+				AE0BAF41187CC759009F8066 /* Storyboard.storyboard */,
+				AE0BAF44187CC759009F8066 /* SGStopWatchVC.h */,
+				AE0BAF45187CC759009F8066 /* SGStopWatchVC.m */,
 				AE0BAF21187CC6FB009F8066 /* SGAppDelegate.h */,
 				AE0BAF22187CC6FB009F8066 /* SGAppDelegate.m */,
 				AE0BAF24187CC6FB009F8066 /* Images.xcassets */,
@@ -155,6 +154,16 @@
 				AE0BAF34187CC6FB009F8066 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AEAC8C7A187E32D600228D32 /* SGStopWatch */ = {
+			isa = PBXGroup;
+			children = (
+				AE0BAF42187CC759009F8066 /* SGStopWatch.h */,
+				AE0BAF43187CC759009F8066 /* SGStopWatch.m */,
+			);
+			name = SGStopWatch;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

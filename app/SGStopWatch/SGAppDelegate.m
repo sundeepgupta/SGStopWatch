@@ -7,11 +7,9 @@
 //
 
 #import "SGAppDelegate.h"
-#import "SGStopWatchVC.h"
 
 
 @interface SGAppDelegate ()
-@property (nonatomic, strong) SGStopWatchVC *stopWatchVC;
 @end
 
 

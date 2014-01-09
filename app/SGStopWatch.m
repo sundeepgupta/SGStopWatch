@@ -119,7 +119,7 @@
     NSTimeInterval secondsElasped = -[self.startDate timeIntervalSinceNow];
     self.seconds = round(secondsElasped);
 
-    if (self.notificationName) {
+    if ([self notifactionInfoIsValid]) {
         [self postNotification];
     }
 
@@ -127,6 +127,21 @@
         [self callDelegate];
     }
 
+}
+
+- (BOOL)notifactionInfoIsValid {
+    BOOL isValid = NO;
+    if ([self isValidString:self.notificationName]  &&  [self isValidString:self.notificationInfoKey]) {
+        isValid = YES;
+    }
+    return isValid;
+}
+- (BOOL)isValidString:(NSString *)string {
+    BOOL isValid = NO;
+    if ([string isKindOfClass:[NSString class]]  &&  string.length > 0) {
+        isValid = YES;
+    }
+    return isValid;
 }
 
 - (void)postNotification {
