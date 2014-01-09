@@ -3,7 +3,7 @@
 //  SGStopWatch
 //
 //  Created by Sundeep Gupta on 1/7/2014.
-//  Copyright (c) 2014 Sundeep Gupta. All rights reserved.
+//  Copyright (c) 2014 Sundeep Gupta.
 //
 
 #import <UIKit/UIKit.h>

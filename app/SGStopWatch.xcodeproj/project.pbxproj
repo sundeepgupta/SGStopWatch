@@ -52,10 +52,10 @@
 		AE0BAF35187CC6FB009F8066 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AE0BAF37187CC6FB009F8066 /* SGStopWatchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SGStopWatchTests.m; sourceTree = "<group>"; };
 		AE0BAF41187CC759009F8066 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Storyboard.storyboard; path = ../Storyboard.storyboard; sourceTree = "<group>"; };
-		AE0BAF42187CC759009F8066 /* SGStopWatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGStopWatch.h; sourceTree = "<group>"; };
-		AE0BAF43187CC759009F8066 /* SGStopWatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGStopWatch.m; sourceTree = "<group>"; };
-		AE0BAF44187CC759009F8066 /* SGStopWatchVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGStopWatchVC.h; sourceTree = SOURCE_ROOT; };
-		AE0BAF45187CC759009F8066 /* SGStopWatchVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGStopWatchVC.m; sourceTree = SOURCE_ROOT; };
+		AE0BAF42187CC759009F8066 /* SGStopWatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = SGStopWatch.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		AE0BAF43187CC759009F8066 /* SGStopWatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = SGStopWatch.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		AE0BAF44187CC759009F8066 /* SGStopWatchVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = SGStopWatchVC.h; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		AE0BAF45187CC759009F8066 /* SGStopWatchVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = SGStopWatchVC.m; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
