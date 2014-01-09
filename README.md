@@ -16,4 +16,4 @@ Simply add the SGStopWatch.h and SGStopWatch.m files into your project.
 Toastmasters Timer
 ==================
 
-This class was built for the [Toastmasters Timer](https://itunes.apple.com/us/app/toastmasters-timer/id708807408?ls=1&mt=8) app.
+This class was built for the [Toastmasters Timer](https://itunes.apple.com/us/app/toastmasters-timer/id708807408) app.
