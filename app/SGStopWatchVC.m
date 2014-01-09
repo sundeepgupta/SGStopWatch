@@ -37,35 +37,35 @@
 
 #pragma mark - Timer Controls
 - (IBAction)pauseButtonPress:(id)sender {
-    [self toggleTimer];
+    [self toggleStopWatch];
 }
-- (void)toggleTimer {
+- (void)toggleStopWatch {
     STOPWATCH_STATUS status = [self.stopWatch status];
     if (status == RUNNING) {
-        [self pauseTimer];
+        [self pauseStopWatch];
     } else {
-        [self startTimerWithStatus:status];
+        [self startStopWatchWithStatus:status];
     }
 }
-- (void)pauseTimer {
+- (void)pauseStopWatch {
     [self.stopWatch pause];
-    [self changeButtonToContinueTimer];
+    [self changePauseButtonStart];
 }
 
-- (void)startTimerWithStatus:(STOPWATCH_STATUS)status {
+- (void)startStopWatchWithStatus:(STOPWATCH_STATUS)status {
     if (status == PAUSED) {
         [self.stopWatch unpause];
     } else { //status is stopped
         [self.stopWatch startFromStopped];
     }
-    [self changeButtonToPauseTimer];
+    [self changePauseButtonToPause];
 }
 
 
-- (void)changeButtonToContinueTimer {
+- (void)changePauseButtonStart {
     [self setPauseButtonImageWithName:@"play.png"];
 }
-- (void)changeButtonToPauseTimer {
+- (void)changePauseButtonToPause {
     [self setPauseButtonImageWithName:@"pause.png"];
 }
 - (void)setPauseButtonImageWithName:(NSString *)name {
@@ -75,18 +75,18 @@
 
 - (IBAction)stopButtonPress:(id)sender {
     [self.stopWatch stop];
-    [self updateTimerLabel];
-    [self changeButtonToContinueTimer];
+    [self updateClockLabel];
+    [self changePauseButtonStart];
 }
 
 
 
 #pragma mark - Stopwatch Delegate
 - (void)didUpdateWithSeconds:(NSInteger)seconds {
-    [self updateTimerLabel];
+    [self updateClockLabel];
 }
 
-- (void)updateTimerLabel {
+- (void)updateClockLabel {
     self.clockLabel.text = [self stringForSeconds:self.stopWatch.seconds];
 }
 
