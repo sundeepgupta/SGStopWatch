@@ -4,16 +4,22 @@
 SGStopWatch
 ===========
 
-A stopwatch class for Objective-C. This stopwatch uses the NSTimer object to provide basic stopwatch functionality. It includes start, pause, unpause and stop controls. This repo includes a simple stopwatch app to provide an example UI for the stopwatch object. 
+A stopwatch class for Objective-C. This stopwatch uses the NSTimer object to provide basic stopwatch functionality. It includes start, pause, unpause and stop controls. 
 
 
 Installation
 ============
 
-Simply add the SGStopWatch.h and SGStopWatch.m files into your project.
+Simply add the SGStopWatch.h and SGStopWatch.m files into your project. An example app of a simple stopwatch is included to provide for an example.
 
 
 Toastmasters Timer
 ==================
 
-This class was built for the [Toastmasters Timer](https://itunes.apple.com/us/app/toastmasters-timer/id708807408) app.
+SGStopWatch was used in the [Toastmasters Timer](https://itunes.apple.com/us/app/toastmasters-timer/id708807408) app.
+
+
+License
+=======
+
+Governed under WTFPL. See LICENSE.txt for details.
