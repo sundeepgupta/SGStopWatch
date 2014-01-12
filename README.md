@@ -17,3 +17,9 @@ Toastmasters Timer
 ==================
 
 SGStopWatch was used in the [Toastmasters Timer](https://itunes.apple.com/us/app/toastmasters-timer/id708807408) app.
+
+
+License
+=======
+
+Governed under WTFPL. See LICENSE.txt for details.
