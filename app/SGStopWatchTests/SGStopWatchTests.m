@@ -1,11 +1,3 @@
-//
-//  SGStopWatchTests.m
-//  SGStopWatchTests
-//
-//  Created by Sundeep Gupta on 1/7/2014.
-//  Copyright (c) 2014 Sundeep Gupta.
-//
-
 #import <XCTest/XCTest.h>
 
 @interface SGStopWatchTests : XCTestCase
